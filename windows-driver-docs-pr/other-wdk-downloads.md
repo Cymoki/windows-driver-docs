@@ -73,6 +73,30 @@ You can also install the EWDK to build drivers and basic Win32 test applications
 **OR**
 [Install the EWDK 1607](https://developer.microsoft.com/windows/hardware/license-terms-enterprise-wdk)
 
+
+## Additional information
+
+### Release notes and run-time requirements, applicable to:
+
+* WDK for Windows 10, version 1703
+* EWDK for Windows 10, version 1703
+* WDK for Windows 10, version 1607
+* EWDK for Windows 10, version 1607
+
+WDK requires Visual Studio, for more information more info on system requirements for Visual Studio please review [Visual Studio 2015 System Requirements.] (https://docs.microsoft.com/en-us/visualstudio/productinfo/vs2015-sysrequirements-vs)
+
+EWDK will additionally need .NET 4.6, for more information on what .NET runs on please review [.NET Framework system requirements.](https://docs.microsoft.com/dotnet/framework/get-started/system-requirements)
+
+You can use the WDK to develop drivers for these operating systems: 
+
+|Client OS|Server OS|
+|-|-|
+|Windows 10| |
+|Windows 8.1|Windows Server 2012 R2|
+|Windows 8 |Windows Server 2012|
+|Windows 7|Windows Server 2008 R2 SP1|
+
+
 ## ![download icon](images/download-install.png) WDK 8.1 Update (for Windows 8.1, 8, and 7 drivers)
 
 WDK 8.1 Update has tools to build, test, debug, and deploy drivers for Windows 8.1 Update, Windows 8.1, Windows 8, and Windows 7. When you have the WDK, we recommend that you install the WDK 8.1 Update Test Pack. It has the tests for device fundamentals, graphics, imaging, mobile broadband (CDMA, GSM, WLAN), sensors, and other utilities. 
